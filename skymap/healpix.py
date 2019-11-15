@@ -4,7 +4,7 @@ Tools for working with healpix.
 """
 __author__ = "Alex Drlica-Wagner"
 import numpy as np
-import healpy as hp
+from astropy_healpix import healpy as hp
 import pandas as pd
 
 import warnings
