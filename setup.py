@@ -4,7 +4,7 @@ try: from setuptools import setup
 except ImportError: from distutils.core import setup
 import versioneer
 
-URL = 'https://github.com/kadrlica/skymap'
+URL = 'https://github.com/peakz22/skymap'
 
 setup(
     name='skymap',
@@ -20,7 +20,7 @@ setup(
         'scipy',
         'basemap',
         'ephem',
-        'healpy > 1.10.2', # This is required for `lonlat` argument
+        'astropy-healpix', # This is required for `lonlat` argument
         'astropy',
         'pandas',
     ],
