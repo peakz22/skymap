@@ -12,7 +12,7 @@ from matplotlib import mlab
 import pylab as plt
 import numpy as np
 import ephem
-import healpy as hp
+from astropy_healpix import healpy as hp
 import scipy.ndimage as nd
 
 from matplotlib.collections import LineCollection
