@@ -5,7 +5,7 @@ Random utilities
 import os, os.path
 
 import numpy as np
-import healpy as hp
+from astropy_healpix import healpy as hp
 
 def get_datadir():
     from os.path import abspath,dirname,join
